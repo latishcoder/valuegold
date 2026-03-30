@@ -4,10 +4,10 @@ import ServicesSection from "../components/ServicesSection.jsx";
 import HowItWorks from "../components/HowItWorks.jsx.jsx";
 import WhyChoose from "../components/WhyChoose.jsx";
 import Achievements from "../components/Achievements.jsx";
-import ComparisonTable from "../components/ComparisonTable.jsx";
 import Testimonials from "../components/Testimonials.jsx";
 import FAQ from "../components/FAQ.jsx";
 import Footer from "../components/Footer.jsx";
+import ComparisonSection from "../components/ComparisonSection.jsx";
 
 export default function Home() {
   return (
@@ -18,7 +18,7 @@ export default function Home() {
       <HowItWorks />
       <WhyChoose />
       <Achievements />
-      <ComparisonTable />
+      <ComparisonSection />
       <Testimonials />
       <FAQ />
       <Footer />
